@@ -1,0 +1,13 @@
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  #源数据
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring_data?serverTimezone=GMT&useSSL=FALSE
+    username: root
+    password: wrial.qq.com
+    type: com.zaxxer.hikari.HikariDataSource
+server:
+  port: 8899
